@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>signup</title>
+    <style>
+
+        body{
+            text-align: center;
+            background-image: url("https://images.pexels.com/photos/4004374/pexels-photo-4004374.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+margin-bottom: 50px;
+height: 100vh;
+        }
+
+        #f1{
+    position: absolute;
+    background-color: rgb(68, 69, 78);
+    width:40%;
+    text-align: center;
+    height:90%;
+    margin: 10% 10% 10% 30%;
+    border-radius: 20%;
+    box-shadow: 8px 8px 10px 10px #141414;
+
+}
+
+label{
+    margin: 10px;
+    text-align: left;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input{
+    width:60vh;
+    margin: 10px;
+    text-align: left;
+height: 25px;
+}
+a:hover{
+    color: red;
+}
+
+button{
+    height: 40px;
+    width:90px;
+    margin:30px;
+    border-radius: 50% 20%;
+    border: #141414;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: large;
+}
+button:hover{
+    box-shadow: 8px 8px 10px 10px #141414;
+}
+input:hover{
+    opacity: 0.7;
+}
+textarea:hover{
+    opacity: 0.7;
+
+}
+
+img{
+    border-radius: 30%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+a:visited {
+  color: green;
+}
+a {
+  color: yellow;
+}
+a:hover{
+    color:red;
+}
+
+        </style>
+
+
+</head>
+
+<body>
+    <div id="f1">
+        <img src="food-logo-smile-label-company-grocery-store-friendly-vector-illustration-smiling-mouth-symbol-135565322.jpg" height="80px" width="80px">
+    <h1 style="margin: 0;">Register here!!</h1>
+<form>
+<table>
+    <tr>
+        <th>
+            <label>Name: </label></th>
+            <th>
+            <input type="text" minlength="8" pattern="[a-Z]"/>
+        </th>
+        </tr>
+        <tr>
+        <th>
+            <label>Email Id: </label></th>
+            <th>
+            <input type="text"/>
+        </th></tr>
+        <tr>
+        <th>
+            <label>Password: </label></th>
+            <th>
+            <input type="password"/>
+        </th>
+    </tr>
+<tr>
+    <th>
+       <label> Gender: </label>
+    </th>
+    <td style="text-align: left;">
+        <input type="radio" style="width: 10%; height: 15px; margin: 0%; padding: 0%;" name="inp1"><label>Male</label>
+        <input type="radio" style="width: 10%; height: 15px; margin: 0%; padding: 0%;" name="inp1"><label>Female</label>
+        <input type="radio"style="width: 10%; height: 15px; margin: 0%; padding: 0%;" name="inp1"><label>Other</label>
+    </td>
+
+</tr>
+<tr>
+    
+    <th ><label style="margin: 5px;padding: 0%;">Date of Birth: </label> </th>
+<th cellpadding="0% "style="padding-left:0px;text-align: left;">      <input type="date" style="width: 30vh; text-align: left;padding: 0%;padding: 0%;">
+    </th>
+  
+</tr>
+<tr>
+    <th>
+    <label style="margin: 10px;">Address: </label>
+    </th>
+    <th style="text-align: left;">
+        <textarea name="Text1" cols="40" rows="5"></textarea>
+    </th>
+</tr>
+
+<tr>
+    <th></th>
+    <th style="text-align: left; ">
+        <button type="reset" style="margin-right: 60px; margin-left: 0;">Clear</button>
+    
+        <button type="submit" style="width: 20vh; margin-left: 19vh;">Create Account</button>
+    </th>
+    
+</tr>
+<tr>
+    <th colspan="2">
+        Already have an account ? <a href="index.html">SignIn</a>
+    </th>
+</tr>
+
+</table>
+
+
+</form>
+
+
+
+
+    </div>
+<br>
+</body>
+<br>
+</html>
